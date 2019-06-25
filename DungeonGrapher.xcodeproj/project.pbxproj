@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA70B8A922C2E85300963198 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B8A822C2E85300963198 /* AppDelegate.swift */; };
+		BA70B8AB22C2E85800963198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA70B8AA22C2E85800963198 /* Assets.xcassets */; };
+		BA70B8AE22C2E85800963198 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA70B8AC22C2E85800963198 /* MainMenu.xib */; };
+		BA70B8BA22C2E85800963198 /* DungeonGrapherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B8B922C2E85800963198 /* DungeonGrapherTests.swift */; };
+		BA70B8C522C2E85800963198 /* DungeonGrapherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B8C422C2E85800963198 /* DungeonGrapherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA70B8B622C2E85800963198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA70B89D22C2E85300963198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA70B8A422C2E85300963198;
+			remoteInfo = DungeonGrapher;
+		};
+		BA70B8C122C2E85800963198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA70B89D22C2E85300963198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA70B8A422C2E85300963198;
+			remoteInfo = DungeonGrapher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA70B8A522C2E85300963198 /* DungeonGrapher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DungeonGrapher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA70B8A822C2E85300963198 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA70B8AA22C2E85800963198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA70B8AD22C2E85800963198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BA70B8AF22C2E85800963198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA70B8B022C2E85800963198 /* DungeonGrapher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DungeonGrapher.entitlements; sourceTree = "<group>"; };
+		BA70B8B522C2E85800963198 /* DungeonGrapherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DungeonGrapherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA70B8B922C2E85800963198 /* DungeonGrapherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonGrapherTests.swift; sourceTree = "<group>"; };
+		BA70B8BB22C2E85800963198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA70B8C022C2E85800963198 /* DungeonGrapherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DungeonGrapherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA70B8C422C2E85800963198 /* DungeonGrapherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonGrapherUITests.swift; sourceTree = "<group>"; };
+		BA70B8C622C2E85800963198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA70B8A222C2E85300963198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA70B8B222C2E85800963198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA70B8BD22C2E85800963198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA70B89C22C2E85300963198 = {
+			isa = PBXGroup;
+			children = (
+				BA70B8A722C2E85300963198 /* DungeonGrapher */,
+				BA70B8B822C2E85800963198 /* DungeonGrapherTests */,
+				BA70B8C322C2E85800963198 /* DungeonGrapherUITests */,
+				BA70B8A622C2E85300963198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA70B8A622C2E85300963198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA70B8A522C2E85300963198 /* DungeonGrapher.app */,
+				BA70B8B522C2E85800963198 /* DungeonGrapherTests.xctest */,
+				BA70B8C022C2E85800963198 /* DungeonGrapherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA70B8A722C2E85300963198 /* DungeonGrapher */ = {
+			isa = PBXGroup;
+			children = (
+				BA70B8A822C2E85300963198 /* AppDelegate.swift */,
+				BA70B8AA22C2E85800963198 /* Assets.xcassets */,
+				BA70B8AC22C2E85800963198 /* MainMenu.xib */,
+				BA70B8AF22C2E85800963198 /* Info.plist */,
+				BA70B8B022C2E85800963198 /* DungeonGrapher.entitlements */,
+			);
+			path = DungeonGrapher;
+			sourceTree = "<group>";
+		};
+		BA70B8B822C2E85800963198 /* DungeonGrapherTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA70B8B922C2E85800963198 /* DungeonGrapherTests.swift */,
+				BA70B8BB22C2E85800963198 /* Info.plist */,
+			);
+			path = DungeonGrapherTests;
+			sourceTree = "<group>";
+		};
+		BA70B8C322C2E85800963198 /* DungeonGrapherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA70B8C422C2E85800963198 /* DungeonGrapherUITests.swift */,
+				BA70B8C622C2E85800963198 /* Info.plist */,
+			);
+			path = DungeonGrapherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA70B8A422C2E85300963198 /* DungeonGrapher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA70B8C922C2E85800963198 /* Build configuration list for PBXNativeTarget "DungeonGrapher" */;
+			buildPhases = (
+				BA70B8A122C2E85300963198 /* Sources */,
+				BA70B8A222C2E85300963198 /* Frameworks */,
+				BA70B8A322C2E85300963198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DungeonGrapher;
+			productName = DungeonGrapher;
+			productReference = BA70B8A522C2E85300963198 /* DungeonGrapher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA70B8B422C2E85800963198 /* DungeonGrapherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA70B8CC22C2E85800963198 /* Build configuration list for PBXNativeTarget "DungeonGrapherTests" */;
+			buildPhases = (
+				BA70B8B122C2E85800963198 /* Sources */,
+				BA70B8B222C2E85800963198 /* Frameworks */,
+				BA70B8B322C2E85800963198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA70B8B722C2E85800963198 /* PBXTargetDependency */,
+			);
+			name = DungeonGrapherTests;
+			productName = DungeonGrapherTests;
+			productReference = BA70B8B522C2E85800963198 /* DungeonGrapherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA70B8BF22C2E85800963198 /* DungeonGrapherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA70B8CF22C2E85800963198 /* Build configuration list for PBXNativeTarget "DungeonGrapherUITests" */;
+			buildPhases = (
+				BA70B8BC22C2E85800963198 /* Sources */,
+				BA70B8BD22C2E85800963198 /* Frameworks */,
+				BA70B8BE22C2E85800963198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA70B8C222C2E85800963198 /* PBXTargetDependency */,
+			);
+			name = DungeonGrapherUITests;
+			productName = DungeonGrapherUITests;
+			productReference = BA70B8C022C2E85800963198 /* DungeonGrapherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA70B89D22C2E85300963198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Stephen Nary";
+				TargetAttributes = {
+					BA70B8A422C2E85300963198 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					BA70B8B422C2E85800963198 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = BA70B8A422C2E85300963198;
+					};
+					BA70B8BF22C2E85800963198 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = BA70B8A422C2E85300963198;
+					};
+				};
+			};
+			buildConfigurationList = BA70B8A022C2E85300963198 /* Build configuration list for PBXProject "DungeonGrapher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA70B89C22C2E85300963198;
+			productRefGroup = BA70B8A622C2E85300963198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA70B8A422C2E85300963198 /* DungeonGrapher */,
+				BA70B8B422C2E85800963198 /* DungeonGrapherTests */,
+				BA70B8BF22C2E85800963198 /* DungeonGrapherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA70B8A322C2E85300963198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA70B8AB22C2E85800963198 /* Assets.xcassets in Resources */,
+				BA70B8AE22C2E85800963198 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA70B8B322C2E85800963198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA70B8BE22C2E85800963198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA70B8A122C2E85300963198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA70B8A922C2E85300963198 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA70B8B122C2E85800963198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA70B8BA22C2E85800963198 /* DungeonGrapherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA70B8BC22C2E85800963198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA70B8C522C2E85800963198 /* DungeonGrapherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA70B8B722C2E85800963198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA70B8A422C2E85300963198 /* DungeonGrapher */;
+			targetProxy = BA70B8B622C2E85800963198 /* PBXContainerItemProxy */;
+		};
+		BA70B8C222C2E85800963198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA70B8A422C2E85300963198 /* DungeonGrapher */;
+			targetProxy = BA70B8C122C2E85800963198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA70B8AC22C2E85800963198 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA70B8AD22C2E85800963198 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA70B8C722C2E85800963198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA70B8C822C2E85800963198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BA70B8CA22C2E85800963198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DungeonGrapher/DungeonGrapher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JHCNH68BKK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DungeonGrapher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephenpnary.DungeonGrapher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BA70B8CB22C2E85800963198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DungeonGrapher/DungeonGrapher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JHCNH68BKK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DungeonGrapher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephenpnary.DungeonGrapher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BA70B8CD22C2E85800963198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JHCNH68BKK;
+				INFOPLIST_FILE = DungeonGrapherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephenpnary.DungeonGrapherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DungeonGrapher.app/Contents/MacOS/DungeonGrapher";
+			};
+			name = Debug;
+		};
+		BA70B8CE22C2E85800963198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JHCNH68BKK;
+				INFOPLIST_FILE = DungeonGrapherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephenpnary.DungeonGrapherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DungeonGrapher.app/Contents/MacOS/DungeonGrapher";
+			};
+			name = Release;
+		};
+		BA70B8D022C2E85800963198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JHCNH68BKK;
+				INFOPLIST_FILE = DungeonGrapherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephenpnary.DungeonGrapherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DungeonGrapher;
+			};
+			name = Debug;
+		};
+		BA70B8D122C2E85800963198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JHCNH68BKK;
+				INFOPLIST_FILE = DungeonGrapherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephenpnary.DungeonGrapherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DungeonGrapher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA70B8A022C2E85300963198 /* Build configuration list for PBXProject "DungeonGrapher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA70B8C722C2E85800963198 /* Debug */,
+				BA70B8C822C2E85800963198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA70B8C922C2E85800963198 /* Build configuration list for PBXNativeTarget "DungeonGrapher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA70B8CA22C2E85800963198 /* Debug */,
+				BA70B8CB22C2E85800963198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA70B8CC22C2E85800963198 /* Build configuration list for PBXNativeTarget "DungeonGrapherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA70B8CD22C2E85800963198 /* Debug */,
+				BA70B8CE22C2E85800963198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA70B8CF22C2E85800963198 /* Build configuration list for PBXNativeTarget "DungeonGrapherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA70B8D022C2E85800963198 /* Debug */,
+				BA70B8D122C2E85800963198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA70B89D22C2E85300963198 /* Project object */;
+}

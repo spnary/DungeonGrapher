@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DungeonGenerator",
+        "repositoryURL": "https://github.com/spnary/DungeonGenerator",
+        "state": {
+          "branch": "master",
+          "revision": "317c17755b3156a9ea4f3e1dcec8da3a3efbb9b5",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

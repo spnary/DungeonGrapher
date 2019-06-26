@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,8 @@
 		BA70B8AE22C2E85800963198 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA70B8AC22C2E85800963198 /* MainMenu.xib */; };
 		BA70B8BA22C2E85800963198 /* DungeonGrapherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B8B922C2E85800963198 /* DungeonGrapherTests.swift */; };
 		BA70B8C522C2E85800963198 /* DungeonGrapherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B8C422C2E85800963198 /* DungeonGrapherUITests.swift */; };
+		BA70B8D322C2EA5C00963198 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B8D222C2EA5C00963198 /* MapView.swift */; };
+		BA70B8D622C2EDE200963198 /* DungeonGenerator in Frameworks */ = {isa = PBXBuildFile; productRef = BA70B8D522C2EDE200963198 /* DungeonGenerator */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 		BA70B8C022C2E85800963198 /* DungeonGrapherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DungeonGrapherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA70B8C422C2E85800963198 /* DungeonGrapherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonGrapherUITests.swift; sourceTree = "<group>"; };
 		BA70B8C622C2E85800963198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA70B8D222C2EA5C00963198 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA70B8D622C2EDE200963198 /* DungeonGenerator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +101,7 @@
 				BA70B8A822C2E85300963198 /* AppDelegate.swift */,
 				BA70B8AA22C2E85800963198 /* Assets.xcassets */,
 				BA70B8AC22C2E85800963198 /* MainMenu.xib */,
+				BA70B8D222C2EA5C00963198 /* MapView.swift */,
 				BA70B8AF22C2E85800963198 /* Info.plist */,
 				BA70B8B022C2E85800963198 /* DungeonGrapher.entitlements */,
 			);
@@ -137,6 +142,9 @@
 			dependencies = (
 			);
 			name = DungeonGrapher;
+			packageProductDependencies = (
+				BA70B8D522C2EDE200963198 /* DungeonGenerator */,
+			);
 			productName = DungeonGrapher;
 			productReference = BA70B8A522C2E85300963198 /* DungeonGrapher.app */;
 			productType = "com.apple.product-type.application";
@@ -209,6 +217,9 @@
 				Base,
 			);
 			mainGroup = BA70B89C22C2E85300963198;
+			packageReferences = (
+				BA70B8D422C2EDE200963198 /* XCRemoteSwiftPackageReference "DungeonGenerator" */,
+			);
 			productRefGroup = BA70B8A622C2E85300963198 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA70B8A922C2E85300963198 /* AppDelegate.swift in Sources */,
+				BA70B8D322C2EA5C00963198 /* MapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +585,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA70B8D422C2EDE200963198 /* XCRemoteSwiftPackageReference "DungeonGenerator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spnary/DungeonGenerator";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA70B8D522C2EDE200963198 /* DungeonGenerator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA70B8D422C2EDE200963198 /* XCRemoteSwiftPackageReference "DungeonGenerator" */;
+			productName = DungeonGenerator;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BA70B89D22C2E85300963198 /* Project object */;
 }
